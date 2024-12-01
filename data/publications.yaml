@@ -1,0 +1,21 @@
+
+- authors: Doe, John, Smith, Jane
+  journal: Journal of Artificial Intelligence Research
+  title: A Sample Paper on Machine Learning
+  url: https://example.com/sample-paper-ml
+  year: '2023'
+- authors: Smith, Jane
+  journal: ''
+  title: Deep Learning Fundamentals
+  url: ''
+  year: '2021'
+- authors: Johnson, Alice, Brown, Bob
+  journal: ''
+  title: Neural Networks for Natural Language Processing
+  url: https://example.com/nlp-conference-paper
+  year: '2020'
+- authors: Thompson, Charlie
+  journal: ''
+  title: A Guide to Research Best Practices
+  url: https://example.com/research-guide
+  year: '2019'

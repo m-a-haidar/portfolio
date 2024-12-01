@@ -1,0 +1,6 @@
+#publications {
+    min-height: calc(100vh - 100px); /* Adjust 100px depending on your header and footer height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
