@@ -15,7 +15,7 @@ outputs:
 
 Paginate: 3
 enableRobotsTXT: true
-relativeUrls: true
+relativeUrls: false
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
