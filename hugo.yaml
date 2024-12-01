@@ -1,3 +1,4 @@
+# baseURL: "https://hugo-profile.netlify.app"
 baseURL: "https://m-a-haidar.github.io/portfolio"
 languageCode: "en-us"
 title: "Muhammad Ali Haidar"
@@ -14,7 +15,7 @@ outputs:
 
 Paginate: 3
 enableRobotsTXT: true
-relativeURLs: true
+relativeUrls: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
