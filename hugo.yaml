@@ -1,4 +1,4 @@
-# baseURL: "https://hugo-profile.netlify.app"
+#baseURL: "https://hugo-profile.netlify.app"
 baseURL: "https://muhammadalihaidar.de/"
 languageCode: "en-us"
 title: "Muhammad Ali Haidar"
@@ -140,7 +140,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Muhammad Ali Haidar."
-    subtitle: "Neuroscientist. Author. Educator"
+    subtitle: "Neuroscientist. Writer"
     content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/Peep2.png
     bottomImage:
