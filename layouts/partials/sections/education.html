@@ -1,0 +1,70 @@
+{{ if .Site.Params.education.enable | default false }}
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.education.title | default "Education" }}</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <!-- Nav pills -->
+                    <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="experience-tab" role="tablist">
+                        {{ range $index, $element := .Site.Params.education.items }}
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div
+                                class="nav-link {{ if eq $index 0 }}active{{ end }} bg-transparent"
+                                aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+                                role="tab"
+                                data-bs-toggle="pill"
+                                id='{{ replace .title " " "-" }}-tab'
+                                data-bs-target='#pills-{{ replace .title " " "-" }}'
+                                aria-controls='{{ replace .title " " "-" }}'
+                            >
+                                {{ .title }}
+                            </div>
+                        </li>
+                        {{ end }}
+                    </ul>
+
+                    <!-- Tab content -->
+                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="experiene-tabContent">
+                        {{ range $index, $element := .Site.Params.education.items }}
+                        <div
+                            class="tab-pane fade {{ if eq $index 0 }}show active{{ end }} bg-transparent"
+                            role="tabpanel"
+                            id='pills-{{ replace .title " " "-" }}'
+                            aria-labelledby='{{ replace .title " " "-" }}-tab'
+                        >
+                            <div>
+                                <span class="h4">{{ .title }}</span>
+                                <small>-</small>
+                                <a href="{{ .school.url }}" target="_blank">{{ .school.name }}</a>
+                                <div class="pb-1">
+                                    <small>{{ .date }}</small>
+                                </div>
+
+                                {{ if .GPA }}
+                                <div class="py-1">
+                                    GPA: <i><small>{{ .GPA }}</small></i>
+                                </div>
+                                {{ end }}
+
+                                {{ if .featuredLink.enable | default false }}
+                                <div class="py-2 featuredLink">
+                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href="{{ .featuredLink.url | default "#" }}" target="_blank">
+                                        {{ .featuredLink.name | default "Featured Link" }}
+                                    </a>
+                                </div>
+                                {{ end }}
+
+                                <div class="pt-2 experience-content">
+                                    {{ .content | markdownify }}
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

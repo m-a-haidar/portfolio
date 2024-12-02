@@ -1,0 +1,39 @@
+{{ define "head" }}
+<link rel="stylesheet" href="{{.Site.Params.staticPath}}/css/publications.css">
+
+<!-- fontawesome -->
+<script defer src="{{.Site.Params.staticPath}}/fontawesome-6/all-6.4.2.js"></script>
+{{ end }}
+
+
+{{ define "title" }}
+{{.Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<section id="publications" class="py-5">
+    <div class="container">
+        <h1 class="text-center">{{ .Title }}</h1>
+        <div class="mt-4">
+            <ul class="list-unstyled">
+                {{ $sortedPublications := sort .Site.Data.publications "date" "desc" }}
+                {{ range $sortedPublications }}
+                <li class="mb-4">
+                    <p class="publication">
+                        {{ .authors }}. *{{ .title }}*. 
+                        {{ if .journal }}<i>{{ .journal }}</i>, {{ end }}
+                        {{ .year }}.
+                        {{ if .url }} 
+                        <a href="{{ .url }}" target="_blank">Read Online</a>
+                        {{ end }}
+                    </p>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+
+  
