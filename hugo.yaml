@@ -16,7 +16,7 @@ outputs:
 Paginate: 3
 enableRobotsTXT: true
 relativeURLs: true
-# canonifyURLs: true
+canonifyURLs: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
