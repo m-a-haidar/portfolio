@@ -15,7 +15,8 @@ outputs:
 
 Paginate: 3
 enableRobotsTXT: true
-relativeUrls: true
+relativeURLs: true
+# canonifyURLs: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
 
@@ -33,7 +34,7 @@ Menus:
       weight: 1
     - identifier: publications
       name: "Publications"
-      url: "/publications/"
+      url: "/publications"
       weight: 2
     #Dropdown menu
     # - identifier: dropdown
