@@ -1,5 +1,5 @@
-baseURL: "https://hugo-profile.netlify.app"
-#baseURL: "https://muhammadalihaidar.de/"
+#baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://muhammadalihaidar.de/"
 languageCode: "en-us"
 title: "Muhammad Ali Haidar"
 theme: hugo-profile
@@ -301,22 +301,20 @@ params:
     enable: true
     title: "Conferences"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Arthropod Neuroscience Network Spring Meeting
+        content: 04/2024
+        #url: https://example.com
+        #image: /images/achievment.jpg
+      - title: European Drosophila Neurobiology Conference
+        content: 09/2022
+        #image: /images/achievment.jpg
+      - title: IBRO-MENA School on Clinical Neuroscience from Bench to Bedside
+        content: Best Presentation Award - 11/2021
+        #url: "https://github.com/gurusabarish/hugo-profile"
+        #image: /images/achievment.jpg
+      - title: IBRO-MENA Brigding Disparity Gap in Genetics Research of Parkinson’s Disease and Neurodegenerative Conditions
+        content: 08/2021
+
 
   # projects
   projects:
