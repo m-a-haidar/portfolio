@@ -1,5 +1,5 @@
 # baseURL: "https://hugo-profile.netlify.app"
-baseURL: "https://m-a-haidar.github.io/portfolio/"
+baseURL: "https://muhammadalihaidar.de/"
 languageCode: "en-us"
 title: "Muhammad Ali Haidar"
 theme: hugo-profile
@@ -142,7 +142,7 @@ params:
     title: "Muhammad Ali Haidar."
     subtitle: "Neuroscientist. Author. Educator"
     content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/Peep.png
+    image: /images/Peep2.png
     bottomImage:
       enable: true
     #roundImage: true # Make hero image circular | default false
@@ -285,7 +285,7 @@ params:
   education:
     enable: true
     # title: "Custom Name"
-    index: false
+    index: true
     items:
       - title: "PhD in Neurobiology and Behavior"
         school:
