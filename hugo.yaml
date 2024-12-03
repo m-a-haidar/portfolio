@@ -148,14 +148,20 @@ params:
     #roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "#"
+      name: "CV"
+      url: "CV_Muhammad_Ali_Haidar.pdf"
       download: true
-      newPage: false
+      newPage: true
     button2:
       enable: true
       name: "Publications"
       url: "/publications"
+      download: false
+      newPage: false
+    button3:
+      enable: true
+      name: "Email me"
+      url: "mailto:muhammad.a.haidar@gmail.com"
       download: false
       newPage: false
     socialLinks:
@@ -178,7 +184,7 @@ params:
     image: #"/images/me.png"
     content: |-
       Hi, I’m Muhammad Ali Haidar!
-      I am currently pursuing my PhD in Berlin. My research focuses on understanding the neural circuits and mechanisms behind sleep profiles and how neuromodulators regulate these behaviors. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions. I’m also fascinated by neurotechnology’s potential to bridge biology and innovation, driving new tools and insights to transform how we understand the brain.
+      Hi, I’m Muhammad Ali Haidar! I am currently pursuing my PhD in Berlin. My research focuses on understanding the neural circuits behind sleep and activity personalities, and how neuromodulators regulate these behaviors. Before my research in neuroethology, I was working on drug discovery for traumatic brain injury. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions. I’m also fascinated by neurotechnology and the tools it provides to understand the brain.
 
       Beyond the lab, I’m dedicated to science communication and blending science with literature to make complex ideas engaging and relatable. If you’re interested in neuroscience, neurotech, or the art of storytelling in science, let’s connect!
 

@@ -35,6 +35,15 @@
                             </a>
                         </span>
 
+                        <span class="px-1">
+                            <a href="mailto:muhammad.a.haidar@gmail.com" class="btn" 
+                            {{ if .Site.Params.hero.button3.newPage | default true }}
+                                target="_blank"
+                            {{ end }}>
+                                {{ .Site.Params.hero.button3.name }}
+                            </a>
+                        </span>
+
                         {{ end }}
                     </div>
                     <div class="col-auto px-0 h-100">
