@@ -1,5 +1,5 @@
-#baseURL: "https://hugo-profile.netlify.app"
-baseURL: "https://muhammadalihaidar.de/"
+baseURL: "https://hugo-profile.netlify.app"
+# baseURL: "https://muhammadalihaidar.de/"
 languageCode: "en-us"
 title: "Muhammad Ali Haidar"
 theme: hugo-profile

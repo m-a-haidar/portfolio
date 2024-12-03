@@ -528,15 +528,15 @@ header .navbar.animate {
 
 /* achievements */
 
-#achievements a {
+#conferences a {
     text-decoration: none;
 }
 
-#achievements h3 {
+#conferences h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#achievements .card {
+#conferences .card {
     cursor: context-menu;
     background-color: var(--secondary-color) !important;
     border-radius: 1rem;
@@ -546,30 +546,30 @@ header .navbar.animate {
     border: 2px solid transparent;
 }
 
-#achievements a.card {
+#conferences a.card {
     cursor: alias;
 }
 
-#achievements .card h5 {
+#conferences .card h5 {
     color: var(--text-color) !important;
     opacity: 0.9;
 }
 
-#achievements .card:hover {
+#conferences .card:hover {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
-#achievements .card:focus {
+#conferences .card:focus {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
 
-#achievements .card-text {
+#conferences .card-text {
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
 }
 
-#achievements img {
+#conferences img {
     border-radius: 0.7rem;
 }
 

@@ -4,3 +4,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+#publications .highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
