@@ -140,7 +140,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Muhammad Ali Haidar."
-    subtitle: "Neuroscientist. Writer"
+    subtitle: "Neuroscientist. Writer."
     content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/Peep2.png
     bottomImage:
@@ -177,20 +177,20 @@ params:
     title: "About Me"
     image: #"/images/me.png"
     content: |-
-      Welcome! I’m Muhammad Ali Haidar, a neuroscientist and biochemist with a proven track record of tackling complex scientific questions across diverse research fields. My work spans from investigating the neural mechanisms behind behavior and individuality to exploring innovative therapies for neurological conditions. I am driven by a passion for bridging molecular insights with real-world applications, contributing meaningful advances in our understanding of the brain.
+      Hi, I’m Muhammad Ali Haidar!
+      I am currently pursuing my PhD in Berlin. My research focuses on understanding the neural circuits and mechanisms behind sleep profiles and how neuromodulators regulate these behaviors. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions. I’m also fascinated by neurotechnology’s potential to bridge biology and innovation, driving new tools and insights to transform how we understand the brain.
 
-      Throughout my career, I’ve developed a wide-ranging skill set, allowing me to approach research problems from multiple perspectives. My adaptability and interdisciplinary expertise have been key in leading projects in basic neuroscience, advancing biochemistry studies, and responding to public health challenges. Whether in the lab or through public science communication, I strive to make impactful contributions and foster a collaborative environment.
+      Beyond the lab, I’m dedicated to science communication and blending science with literature to make complex ideas engaging and relatable. If you’re interested in neuroscience, neurotech, or the art of storytelling in science, let’s connect!
 
-      I am always eager to connect with others who share a curiosity for science and technology. If you’re interested in discussing research, potential collaborations, or the latest trends in neuroscience and neurotechnology, let’s connect!
     skills:
       enable: true
       title: "Here are some of my key skills:"
       items:
-        - "Experimental design, behavioral assays, high-throughput analysis"
-        - "Animal surgery: Controlled Cortical Impact (CCI) model, stereotaxic surgery"
-        - "Molecular biology: RNA extraction, RT-qPCR, immunofluorescence, Western blot, flow cytometry"
-        - "Microscopy: Confocal and two-photon imaging"
-        - "Data analysis: Python, R, machine learning"
+        - Behavioral Testing
+        - "Animal surgery and handling (Mice and Fruit Flies)"
+        - "Molecular Biology Techniques"
+        - "Advanced Microscopy"
+        - "Data analysis and Machine Learning"
         - "Science communication and content creation"
         - 'Project management and mentoring'
 
@@ -213,12 +213,9 @@ params:
         content: |-
           I am part of a research group dedicated to exploring the origins of individuality in behavior using Drosophila melanogaster as a model organism. My project focuses on understanding the neural mechanisms underlying individual variability in sleep patterns and circadian rhythms.
 
-          Techniques and Skills
+          My tasks include behavioral analysis, advanced microsopy, and machine-learning based data analysis. 
 
-            - Behavioral Analysis: Utilized Drosophila Activity Monitors (DAM) for high-throughput tracking of sleep and activity patterns.
-            - Advanced Microscopy: Employed confocal microscopy for in-depth morphological analysis of circadian neurons.
-            - Machine Learning: Applied data-driven approaches using machine learning to model and predict individual variability in sleep and circadian behavior.
-
+         
       - job: "Volunteer Content Editor"
         company: "NTX Content Lab"
         companyUrl: "https://medium.com/@neurotechx"
@@ -233,11 +230,6 @@ params:
           
           As a Volunteer Content Editor for the NeuroTechX Content Lab, I help make neurotechnology accessible by editing and curating educational articles for NTX's Medium page. My work includes refining complex topics like brain-computer interfaces and neurofeedback systems into engaging, reader-friendly content, mentoring contributors, and enhancing NTX's online presence. Through this, I have improved article readability, contributed to high-visibility publications, and supported community engagement with accessible neurotech insights.
 
-          Techniques and Skills:
-
-           - Content Editing: Utilized tools like Google Docs for collaborative editing and Grammarly for style and grammar checks, ensuring high-quality, polished articles.
-           - Science Communication: Leveraged my background in neuroscience to simplify complex neurotech concepts while maintaining accuracy and scientific integrity.
-           - Collaboration and Mentoring: Provided constructive feedback and support to writers, aligning content with NTX’s mission of public engagement and education.
 
       - job: "Research and Teaching Assitant "
         company: "American University of Beirut"
@@ -248,20 +240,12 @@ params:
           url: "https://example.com"
         info:
           enable: false
-          content: I worked as a software developer for more than one year in Amazon.
+          content:
         content: |
           
-          My master’s thesis focused on investigating the neuroprotective effects of Mitoquinone (MitoQ) in a mouse model of traumatic brain injury (TBI). The study demonstrated that MitoQ improved neurological outcomes, reduced neuroinflammation, and enhanced cognitive and sensorimotor functions by targeting oxidative stress and inflammation pathways. Key findings included improved cognitive performance, reduced brain edema, and preserved neuronal integrity, highlighting MitoQ’s potential as a therapeutic for TBI.
+          My work focused on investigating the neuroprotective effects of Mitoquinone (MitoQ) in a mouse model of traumatic brain injury (TBI). As a Graduate Teaching Assistant for Cellular Metabolism and Protein Biochemistry, I supported lab sessions, assisted with grading, and developed teaching materials. I enhanced student engagement by creating detailed lab guides, streamlined grading with efficient feedback, and adapted to hybrid teaching during the COVID-19 pandemic, helping improve student outcomes and confidence.
 
-          As a Graduate Teaching Assistant for Cellular Metabolism and Protein Biochemistry, I supported lab sessions, assisted with grading, and developed teaching materials. I enhanced student engagement by creating detailed lab guides, streamlined grading with efficient feedback, and adapted to hybrid teaching during the COVID-19 pandemic, helping improve student outcomes and confidence.
-
-          Techniques and Skills:
-
-            - Behavioral Assessments: Conducted comprehensive testing, including the Garcia neuroscore, grip strength, adhesive removal, object recognition, and Morris water maze tests, to assess motor, cognitive, and neurological functions.
-            - Molecular Analysis: Utilized RT-qPCR for gene expression analysis, focusing on the Nrf2-ARE antioxidative pathway, and performed immunofluorescence staining to evaluate neuroinflammation and neuronal integrity.
-            - Data Interpretation: Analyzed complex data sets to elucidate the relationship between oxidative stress modulation and improved neurological outcomes, contributing to a deeper understanding of TBI pathology.
-            - Teaching and Course Development: Demonstrated complex concepts through interactive lab sessions. Contributed to the design of new experiments and updated teaching materials to reflect current research.
-
+          
       - job: "Molecular Technologist"
         company: "Lebanese University"
         companyUrl: "https://www.ul.edu.lb/"
@@ -273,12 +257,6 @@ params:
           url: "https://example.com"
         content: |
           As a Molecular Technologist at the Emergency National Laboratory, I contributed to Lebanon's official COVID-19 testing efforts, processing thousands of samples daily using RNA extraction and RT-qPCR testing. I played a key role in optimizing testing protocols and evaluating new molecular kits, enhancing the country's testing capacity and supporting national surveillance. My work directly contributed to the rapid response and public health decisions during the pandemic, including the screening of airport samples and the implementation of effective testing workflows.
-
-          Techniques and Skills:
-
-            - Molecular Techniques: Specialized in high-throughput RNA extraction, multiplex RT-qPCR, and viral RNA quantification.
-            - Protocol Optimization: Developed and refined RNA extraction protocols to streamline testing workflows and enhance assay performance.
-            - Data Analysis: Utilized software tools for real-time PCR analysis and quality control, ensuring consistent and accurate reporting of test results.
 
 
  # Education
@@ -323,26 +301,24 @@ params:
     enable: true
     title: "Conferences"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        # url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Arthropod Neuroscience Network Spring Meeting
+        content: 04/2024
+        #url: https://example.com
+        #image: /images/achievment.jpg
+      - title: European Drosophila Neurobiology Conference
+        content: 09/2022
+        #image: /images/achievment.jpg
+      - title: IBRO-MENA School on Clinical Neuroscience from Bench to Bedside
+        content: Best Presentation Award - 11/2021
+        #url: "https://github.com/gurusabarish/hugo-profile"
+        #image: /images/achievment.jpg
+      - title: IBRO-MENA Brigding Disparity Gap in Genetics Research of Parkinson’s Disease and Neurodegenerative Conditions
+        content: 08/2021
+
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
