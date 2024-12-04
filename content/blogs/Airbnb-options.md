@@ -1,7 +1,7 @@
 ---
 title: "Airbnb Options for India"
 date: 2024-11-30T10:30:00+05:30
-draft: false
+draft: true
 author: "Mohamad Hijazi"
 tags:
     - India

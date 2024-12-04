@@ -14,6 +14,7 @@ outputs:
     - "RSS"
 
 Paginate: 3
+disableKinds: ["blogs"]
 enableRobotsTXT: true
 relativeURLs: true
 canonifyURLs: true
@@ -27,11 +28,11 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
     - identifier: publications
       name: "Publications"
       url: "/publications"
