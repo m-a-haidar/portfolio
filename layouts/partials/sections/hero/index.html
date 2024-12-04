@@ -26,6 +26,8 @@
                                 {{ .Site.Params.hero.button.name }}
                             </a>
                         </span>
+                        {{ end }}
+                        {{ if .Site.Params.hero.button2.enable }}
                         <span class="px-1">
                             <a href="/publications" class="btn" 
                             {{ if .Site.Params.hero.button2.newPage | default true }}
@@ -34,7 +36,8 @@
                                 {{ .Site.Params.hero.button2.name }}
                             </a>
                         </span>
-
+                        {{ end }}
+                        {{ if .Site.Params.hero.button3.enable }}
                         <span class="px-1">
                             <a href="mailto:muhammad.a.haidar@gmail.com" class="btn" 
                             {{ if .Site.Params.hero.button3.newPage | default true }}
