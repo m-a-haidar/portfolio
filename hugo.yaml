@@ -308,19 +308,23 @@ params:
     enable: true
     title: "Conferences"
     items:
-      - title: Arthropod Neuroscience Network Spring Meeting
-        content: 04/2024
+      - title: EMBO Neuropeptides and Behavior 2024
+        content: "Presentation Title: Individuality in Activity Profiles of D. Melanogaster" 
+        url: https://meetings.embo.org/event/24-neuropeptides
+        #image: /images/achievment.jpg
+      - title: Arthropod Neuroscience Network Spring Meeting 2024
+        content: "Presentation Title: Exploring Individuality in Visual and Non-Visual Behaviors in Drosophila Melanogaster" 
         #url: https://example.com
         #image: /images/achievment.jpg
-      - title: European Drosophila Neurobiology Conference
-        content: 09/2022
+      - title: European Drosophila Neurobiology Conference 2022
+        content:
         #image: /images/achievment.jpg
-      - title: IBRO-MENA School on Clinical Neuroscience from Bench to Bedside
-        content: Best Presentation Award - 11/2021
+      - title: IBRO-MENA School on Clinical Neuroscience from Bench to Bedside 2021
+        content: Best Presentation Award - "Effects of MitoQ on Secondary Effects of Open Head Traumatic Brain Injury in Mice"
         #url: "https://github.com/gurusabarish/hugo-profile"
         #image: /images/achievment.jpg
-      - title: IBRO-MENA Brigding Disparity Gap in Genetics Research of Parkinson’s Disease and Neurodegenerative Conditions
-        content: 08/2021
+      - title: IBRO-MENA Brigding Disparity Gap in Genetics Research of Parkinson’s Disease and Neurodegenerative Conditions 2021
+        content:
 
 
   # projects
