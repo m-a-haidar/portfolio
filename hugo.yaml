@@ -404,8 +404,8 @@ params:
       twitter: 
       instagram: 
       facebook: 
-      orcid: https://orcid.com
-      researchgate: https://example.com
+      #orcid: https://orcid.com
+      #researchgate: https://example.com
 
   # List pages like blogs and posts
   listPages:
