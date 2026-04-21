@@ -156,9 +156,9 @@ params:
       enable: true
     #roundImage: true # Make hero image circular | default false
     button:
-      enable: false
-      name: "CV"
-      url: "CV_Muhammad_Ali_Haidar.pdf"
+      enable: true
+      name: "Resume"
+      url: "Muhammad_Ali_Haidar_Resume.pdf"
       download: true
       newPage: true
     button2:
@@ -213,10 +213,10 @@ params:
     enable: true
     title: "Experience"
     items:
-      - job: "Research Assitant/PhD Candidate"
+      - job: "Research Associate/PhD Candidate"
         company: "Freie Universität Berlin"
         companyUrl: "https://www.linneweberlab.com/"
-        date: "Apr 2022 - present"
+        date: "Apr 2022 - July 2026"
         featuredLink:
           enable: false
           name: "View the project"
