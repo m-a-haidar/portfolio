@@ -90,7 +90,7 @@ params:
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   color:
-    # darkmode:
+    darkmode:
     #   textColor: "#D3D3D3"                  # Soft Light Gray for main text (reduced glare)
     #   secondaryTextColor: "#A8A8A8"         # Medium Gray for secondary text (less emphasis, still readable)
     #   textLinkColor: "#5A8A8A"              # Muted Teal for links (luxurious and subtle)
