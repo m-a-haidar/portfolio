@@ -147,11 +147,11 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    #intro: "Hi, my name is"
     title: "Muhammad Ali Haidar."
     subtitle: "Neurobiology PhD Candidate "
     content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/Peep2.png
+    image: /images/me2.png
     bottomImage:
       enable: true
     #roundImage: true # Make hero image circular | default false
@@ -190,7 +190,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: #"/images/Untitled.png"
+    image: #"/images/me2.png"
     content: |-
       
       Hi, I’m Muhammad Ali Haidar! I am currently pursuing my PhD in Berlin. My research focuses on understanding the neural circuits of sleep and activity personalities, and how neuromodulators regulate these behaviors. Before my research in neuroethology, I was working on drug discovery for traumatic brain injury. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions.
