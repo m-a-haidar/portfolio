@@ -106,13 +106,13 @@ params:
     #  secondaryBackgroundColor: "#64ffda1a"
     #  primaryColor: "#007bff"
     #  secondaryColor: "#f8f9fa"
-     textColor: "#1E293B"
-     secondaryTextColor: "#64748B"
-     textLinkColor: "#6366F1"
-     backgroundColor: "#F8FAFC"
-     secondaryBackgroundColor: "#F1F5F9"
-     primaryColor: "#4F46E5f"
-     secondaryColor: "#E2E8F0"
+     textColor: "#111827"
+     secondaryTextColor: "#4B5563"
+     textLinkColor: "#004DC0"
+     backgroundColor: "#FFFFFF"
+     secondaryBackgroundColor: "#F2F4F7"
+     primaryColor: "#0056D2"
+     secondaryColor: "#E22D3748E8F0"
      
 
   # darkmode:
