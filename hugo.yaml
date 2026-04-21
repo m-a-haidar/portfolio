@@ -99,13 +99,21 @@ params:
     #   primaryColor: "#D3D3D3"               # Consistent Soft Gray for primary text and elements
     #   secondaryColor: "#3F4E4F"             # Dark Teal-Gray for subtle accents (adds sophistication without high contrast)
 
-     textColor: "#343a40"
-     secondaryTextColor: "#6c757d"
-     textLinkColor: "#007bff"
-     backgroundColor: "#eaedf0"
-     secondaryBackgroundColor: "#64ffda1a"
-     primaryColor: "#007bff"
-     secondaryColor: "#f8f9fa"
+    #  textColor: "#343a40"
+    #  secondaryTextColor: "#6c757d"
+    #  textLinkColor: "#007bff"
+    #  backgroundColor: "#eaedf0"
+    #  secondaryBackgroundColor: "#64ffda1a"
+    #  primaryColor: "#007bff"
+    #  secondaryColor: "#f8f9fa"
+     textColor: "#1E293B"
+     secondaryTextColor: "#64748B"
+     textLinkColor: "#6366F1"
+     backgroundColor: "#F8FAFC"
+     secondaryBackgroundColor: "#F1F5F9"
+     primaryColor: "#4F46E5f"
+     secondaryColor: "#E2E8F0"
+     
 
   # darkmode:
   #     textColor: "#e4e6eb"
@@ -141,7 +149,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Muhammad Ali Haidar."
-    subtitle: "Neuroscientist. Writer."
+    subtitle: "Neurobiology PhD Candidate "
     content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/Peep2.png
     bottomImage:
