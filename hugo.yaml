@@ -90,22 +90,22 @@ params:
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   color:
-    darkmode:
-      textColor: "#D3D3D3"                  # Soft Light Gray for main text (reduced glare)
-      secondaryTextColor: "#A8A8A8"         # Medium Gray for secondary text (less emphasis, still readable)
-      textLinkColor: "#5A8A8A"              # Muted Teal for links (luxurious and subtle)
-      backgroundColor: "#1A1B1D"            # Dark Charcoal Gray for the main background (less harsh than pure black)
-      secondaryBackgroundColor: "#2A2B2D"   # Slightly lighter gray for secondary elements (soft contrast)
-      primaryColor: "#D3D3D3"               # Consistent Soft Gray for primary text and elements
-      secondaryColor: "#3F4E4F"             # Dark Teal-Gray for subtle accents (adds sophistication without high contrast)
+    # darkmode:
+    #   textColor: "#D3D3D3"                  # Soft Light Gray for main text (reduced glare)
+    #   secondaryTextColor: "#A8A8A8"         # Medium Gray for secondary text (less emphasis, still readable)
+    #   textLinkColor: "#5A8A8A"              # Muted Teal for links (luxurious and subtle)
+    #   backgroundColor: "#1A1B1D"            # Dark Charcoal Gray for the main background (less harsh than pure black)
+    #   secondaryBackgroundColor: "#2A2B2D"   # Slightly lighter gray for secondary elements (soft contrast)
+    #   primaryColor: "#D3D3D3"               # Consistent Soft Gray for primary text and elements
+    #   secondaryColor: "#3F4E4F"             # Dark Teal-Gray for subtle accents (adds sophistication without high contrast)
 
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
+     textColor: "#343a40"
+     secondaryTextColor: "#6c757d"
+     textLinkColor: "#007bff"
+     backgroundColor: "#eaedf0"
+     secondaryBackgroundColor: "#64ffda1a"
+     primaryColor: "#007bff"
+     secondaryColor: "#f8f9fa"
 
   # darkmode:
   #     textColor: "#e4e6eb"
@@ -185,9 +185,8 @@ params:
     image: #"/images/me.png"
     content: |-
       
-      Hi, I’m Muhammad Ali Haidar! I am currently pursuing my PhD in Berlin. My research focuses on understanding the neural circuits behind sleep and activity personalities, and how neuromodulators regulate these behaviors. Before my research in neuroethology, I was working on drug discovery for traumatic brain injury. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions. I’m also fascinated by neurotechnology and the tools it provides to understand the brain.
+      Hi, I’m Muhammad Ali Haidar! I am currently pursuing my PhD in Berlin. My research focuses on understanding the neural circuits of sleep and activity personalities, and how neuromodulators regulate these behaviors. Before my research in neuroethology, I was working on drug discovery for traumatic brain injury. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions.
 
-      Beyond the lab, I’m dedicated to science communication and blending science with literature to make complex ideas engaging and relatable. If you’re interested in neuroscience, neurotech, or the art of storytelling in science, let’s connect!
 
     skills:
       enable: true
