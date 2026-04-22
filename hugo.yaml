@@ -162,7 +162,7 @@ params:
       download: true
       newPage: true
     button2:
-      enable: true
+      enable: false
       name: "Publications"
       url: "/publications"
       download: false
