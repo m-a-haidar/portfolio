@@ -225,9 +225,8 @@ params:
           enable: false
 
         content: |-
-          I am part of a research group dedicated to exploring the origins of individuality in behavior using Drosophila melanogaster as a model organism. My project focuses on understanding the neural mechanisms underlying individual variability in sleep patterns and circadian rhythms.
-
-          My tasks include behavioral testing, advanced microsopy, and machine-learning based data analysis. 
+          At Freie Universität Berlin, I lead research into how structural "blueprints" in the brain drive individual behavioral traits. By designing robust assays for visual and non-visual responses in D. melanogaster, I link circuit-level wiring to specific sleep and activity patterns. I bridge the gap between biology and data by developing reproducible Python and R pipelines for high-dimensional analysis.
+         
 
          
       - job: "Technical Project Manager"
@@ -240,7 +239,7 @@ params:
 
         info:
           enable: false
-        content: |
+        content: |-
           
           I participated in the end-to-end development of a digital health platform designed to bridge medical information gaps for marginalized communities in Lebanon. By merging qualitative user research with technical project oversight, I translated complex community needs into a culturally sensitive, AI-driven resource—delivering a high-impact product within a strict six-month development and funding cycle.
       - job: "Research Assistant "
@@ -253,7 +252,7 @@ params:
         info:
           enable: false
           content:
-        content: |
+        content: |-
           
           I investigated novel therapeutic candidates for Traumatic Brain Injury (TBI), specifically focusing on how drug intervention can mitigate oxidative stress and secondary inflammatory pathways. By combining microsurgery and molecular analysis with a comprehensive battery of behavioral assays, I mapped the recovery of memory and learning paradigms post-treatment. This work culminated in a peer-reviewed publication, where I led the data visualization and mechanistic analysis of neuroprotective effects.
 
@@ -267,7 +266,7 @@ params:
         featuredLink:
           enable: false
           url: "https://example.com"
-        content: |
+        content: |-
 
           At the height of the pandemic, I served on the front lines of Lebanon’s national diagnostic effort, processing high-volume samples for all international arrivals. I managed the full molecular workflow—from manual and automated RNA extraction to RT-qPCR—within a high-throughput environment. My focus was on maintaining 100% diagnostic accuracy and streamlining intake workflows to ensure rapid turnaround times under intense national pressure
 
