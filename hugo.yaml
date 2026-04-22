@@ -225,9 +225,6 @@ params:
           enable: false
         content: |-
           At Freie Universität Berlin, I lead research into how structural "blueprints" in the brain drive individual behavioral traits. By designing robust assays for visual and non-visual responses in D. melanogaster, I link circuit-level wiring to specific sleep and activity patterns. I bridge the gap between biology and data by developing reproducible Python and R pipelines for high-dimensional analysis.
-         
-
-         
       - job: "Technical Project Manager"
         company: "LebMASH"
         companyUrl: "https://lebmash.org/"
@@ -235,12 +232,10 @@ params:
         featuredLink:
           enable: false
           url: "https://example.com"
-
         info:
           enable: false
-        content: |-
+        content: |- 
           I participated in the end-to-end development of a digital health platform designed to bridge medical information gaps for marginalized communities in Lebanon. By merging qualitative user research with technical project oversight, I translated complex community needs into a culturally sensitive, AI-driven resource—delivering a high-impact product within a strict six-month development and funding cycle.
-      
       - job: "Research Assistant "
         company: "American University of Beirut"
         companyUrl: "https://www.aub.edu.lb/fm/DBMG/Pages/FirasKobeissyLab.aspx"
@@ -252,8 +247,6 @@ params:
           enable: false
         content: |-
           I investigated novel therapeutic candidates for Traumatic Brain Injury (TBI), specifically focusing on how drug intervention can mitigate oxidative stress and secondary inflammatory pathways. By combining microsurgery and molecular analysis with a comprehensive battery of behavioral assays, I mapped the recovery of memory and learning paradigms post-treatment. This work culminated in a peer-reviewed publication, where I led the data visualization and mechanistic analysis of neuroprotective effects.
-
-          
       - job: "Molecular Technologist"
         company: "Lebanese University"
         companyUrl: "https://www.ul.edu.lb/"
