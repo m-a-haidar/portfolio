@@ -216,7 +216,7 @@ params:
       - job: "Research Associate/PhD Candidate"
         company: "Freie Universität Berlin"
         companyUrl: "https://www.linneweberlab.com/"
-        date: "Apr 2022 - July 2026"
+        date: "04.2022 - 07.2026"
         featuredLink:
           enable: false
           name: "View the project"
