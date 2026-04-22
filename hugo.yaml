@@ -112,7 +112,7 @@ params:
      backgroundColor: "#FFFFFF"
      secondaryBackgroundColor: "#F2F4F7"
      primaryColor: "#004DC0"
-     secondaryColor: "#2D3748"
+     secondaryColor: "#004DC0"
      
 
   # darkmode:
