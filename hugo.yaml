@@ -259,7 +259,7 @@ params:
         info:
           enable: false
         content: |-
-          At the height of the pandemic, I served on the front lines of Lebanon’s national diagnostic effort, processing high-volume samples for all international arrivals. I managed the full molecular workflow—from manual and automated RNA extraction to RT-qPCR—within a high-throughput environment. My focus was on maintaining 100% diagnostic accuracy and streamlining intake workflows to ensure rapid turnaround times under intense national pressure.
+          At the height of the pandemic, I served on the front lines of Lebanon national diagnostic effort, processing high-volume samples for all international arrivals. I managed the full molecular workflow—from manual and automated RNA extraction to RT-qPCR—within a high-throughput environment. My focus was on maintaining 100% diagnostic accuracy and streamlining intake workflows to ensure rapid turnaround times under intense national pressure.
  # Education
   education:
     enable: true
