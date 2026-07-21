@@ -148,8 +148,8 @@ params:
   hero:
     enable: true
     #intro: "Hi, my name is"
-    title: "Muhammad Ali Haidar."
-    subtitle: "Neurobiologist and Data Anlayist "
+    title: "Muhammad Ali Haidar, PhD"
+    subtitle: "Neurobiologist and Data Analyst "
     content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/me2.png
     bottomImage:
