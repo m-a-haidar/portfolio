@@ -149,7 +149,7 @@ params:
     enable: true
     #intro: "Hi, my name is"
     title: "Muhammad Ali Haidar."
-    subtitle: "Neurobiology PhD Candidate "
+    subtitle: "Neurobiologist and Data Anlayist "
     content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/me2.png
     bottomImage:
@@ -193,18 +193,18 @@ params:
     image: #"/images/me2.png"
     content: |-
       
-      Hi, I’m Muhammad Ali Haidar! I am currently pursuing my PhD in Berlin. My research focuses on understanding the neural circuits of sleep and activity personalities, and how neuromodulators regulate these behaviors. Before my research in neuroethology, I was working on drug discovery for traumatic brain injury. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions.
+      Hi, I’m Muhammad Ali Haidar! I am a PhD in Biology with several years of experience in research and laboratory diagnostics. My research focuses on understanding the neural circuits of sleep and activity personalities, and how neuromodulators regulate these behaviors. Before my research in neuroethology, I was working on drug discovery for traumatic brain injury. With experience in both preclinical and basic research, I bring a broad perspective to exploring complex scientific questions.
 
 
     skills:
       enable: true
       title: "Here are some of my key skills:"
       items:
+        - "Data analysis and Machine Learning"
         - Behavioral Testing
         - "Animal surgery and handling (Mice and Fruit Flies)"
         - "Molecular Biology Techniques"
         - "Advanced Microscopy"
-        - "Data analysis and Machine Learning"
         - "Science communication and content creation"
         - 'Project management and mentoring'
 
@@ -272,7 +272,8 @@ params:
           url: "https://www.fu-berlin.de/en/index.html"
         date: "2022 - 2026"
         content: |-
-          Focus: Investigating circadian rhythms, individuality in behavior, and neural circuitry using Drosophila melanogaster.
+          Thesis: Exploring the Relationship between Brain Wiring and Behavioral Individuality in D. melanogaster
+          Disputation Grade: summa cum laude 
       - title: "MSc in Biochemistry"
         school:
           name: "American University of Beirut"
