@@ -56,8 +56,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Muhammad Ali Haidar — Neuroscientist & Data Analyst"
+  description: "Neuroscientist and data analyst in Berlin — turning complex biological data into clear, usable answers."
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav4.png"
 
@@ -106,13 +106,13 @@ params:
     #  secondaryBackgroundColor: "#64ffda1a"
     #  primaryColor: "#007bff"
     #  secondaryColor: "#f8f9fa"
-     textColor: "#111827"
-     secondaryTextColor: "#4B5563"
-     textLinkColor: "#004DC0"
-     backgroundColor: "#FFFFFF"
-     secondaryBackgroundColor: "#F2F4F7"
-     primaryColor: "#004DC0"
-     secondaryColor: "#F1F5F9"
+     textColor: "#241315"
+     secondaryTextColor: "#6A5A52"
+     textLinkColor: "#9C6B3B"
+     backgroundColor: "#F4EDE3"
+     secondaryBackgroundColor: "#EFE7DB"
+     primaryColor: "#6E2733"
+     secondaryColor: "#EDE4D6"
      
 
   # darkmode:
@@ -128,8 +128,8 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Muhammad Ali Haidar" # Brand name for the brand | default is the title variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "MAH" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -140,7 +140,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: false
+      disableProjects: true
       disableAchievements: false
       disableContact: false
 
@@ -149,11 +149,11 @@ params:
     enable: true
     #intro: "Hi, my name is"
     title: "Muhammad Ali Haidar, PhD"
-    subtitle: "Neurobiologist and Data Analyst "
-    content: #"A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/me2.png
+    subtitle: "Neuroscientist & Data Analyst — Berlin"
+    content: "I study how individual brains produce individual behavior — and turn messy, high-dimensional biological data into answers people can act on."
+    image: /images/me2_oxblood.png
     bottomImage:
-      enable: true
+      enable: false
     #roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -325,52 +325,45 @@ params:
   # projects
   projects:
     enable: false
-    # title: "Custom Name"
+    title: "Projects"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: "Who sleeps consistently \u2014 and who doesn't?"
+        content: "Sleep-regularity patterns across a public health cohort: 1 in 4 adults show high night-to-night variability \u2014 the group most linked to poor cardiometabolic outcomes."
+        image: /images/projects/proj-sleep.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Live dashboard
+          link: "#"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
+          - "SQL"
+          - "Power BI"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+            url: "#"
+      - title: "Where is the revenue actually leaking?"
+        content: "Cohort and retention analysis on 500k e-commerce orders. Repeat buyers are 27% of customers but 61% of revenue \u2014 and get no targeted retention."
+        image: /images/projects/proj-ecom.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Live dashboard
+          link: "#"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "SQL"
+          - "DuckDB"
+          - "Power BI"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: "#"
+      - title: "Cleaning a genuinely messy dataset"
+        content: "A walkthrough of deduping, null-handling and reshaping \u2014 the 70% of the job nobody shows. Every query annotated and reproducible."
+        image: /images/projects/proj-sql.png
+        featured:
+          name: Read the writeup
+          link: "#"
+        badges:
+          - "SQL"
+          - "Window functions"
+        links:
+          - icon: fab fa-github
+            url: "#"
 
   #Contact
   contact:
@@ -395,7 +388,7 @@ params:
       disableFeaturedImage: false
     socialNetworks:
       github: 
-      linkedin: https://linkedin.com
+      linkedin: https://www.linkedin.com/in/haidar-muhammadali/
       twitter: 
       instagram: 
       facebook: 
