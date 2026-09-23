@@ -6,10 +6,16 @@
         <div class="hero-role">{{ .Site.Params.hero.subtitle }}</div>
         <h1 class="hero-name">{{ .Site.Params.hero.title }}</h1>
         <div class="hero-tag">{{ .Site.Params.hero.content | markdownify }}</div>
-        <div class="hero-actions">
-          {{ if .Site.Params.hero.button.enable }}<a class="btn btn-fill" href="{{ .Site.Params.hero.button.url }}"{{ if .Site.Params.hero.button.download }} download{{ end }}{{ if .Site.Params.hero.button.newPage | default true }} target="_blank"{{ end }}>{{ .Site.Params.hero.button.name }}</a>{{ end }}
-          {{ if .Site.Params.hero.button3.enable }}<a class="btn btn-line" href="{{ .Site.Params.hero.button3.url }}"{{ if .Site.Params.hero.button3.newPage }} target="_blank"{{ end }}>{{ .Site.Params.hero.button3.name }}</a>{{ end }}
-          <span class="hero-social">{{ partial "sections/hero/social.html" . }}</span>
+        <div class="hero-switchrow">
+          <div>
+            <p class="switch-label">View my work</p>
+            <div class="seg" data-i="0" id="workSwitch" role="tablist" aria-label="Project type">
+              <span class="thumb"></span>
+              <button class="on" role="tab" aria-selected="true" data-i="0" data-panel="research">Research</button>
+              <button role="tab" aria-selected="false" data-i="1" data-panel="data">Data Analysis</button>
+            </div>
+          </div>
+          <button class="btn-profile" id="profileBtn" aria-expanded="false">&#9656; Profile / CV</button>
         </div>
       </div>
       <div class="hero-figure {{ if .Site.Params.animate }}animate{{ end }}">

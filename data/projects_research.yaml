@@ -1,0 +1,16 @@
+# Research track cards (shown under the "Research" toggle)
+items:
+  - kind: "PhD · Freie Universität Berlin · 2022–2026"
+    badges: ["Drosophila", "Neuroethology"]
+    title: "Brain wiring & behavioral individuality"
+    content: "My dissertation: how structural circuits drive individual sleep and activity personalities in D. melanogaster. Disputation: summa cum laude."
+    link: "#"
+    bg: "oxblood"
+    viz: "wave"
+  - kind: "MSc · American University of Beirut · 2019–2021"
+    badges: ["Biochemistry", "GPA 3.97"]
+    title: "Molecular pathways in neurodegeneration"
+    content: "My master's thesis: exploring the molecular pathways involved in neurodegenerative disease."
+    link: "#"
+    bg: "ink"
+    viz: "atom"

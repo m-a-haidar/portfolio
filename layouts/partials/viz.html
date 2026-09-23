@@ -1,0 +1,4 @@
+{{- if eq . "wave" -}}<svg viewBox="0 0 300 120" width="82%"><g stroke="#E6C98A" stroke-width="2.5" fill="none"><path d="M30 60 q30 -42 70 0 q30 42 70 0 q30 -42 70 0"/></g><g fill="#F4EDE3"><circle cx="30" cy="60" r="5"/><circle cx="100" cy="60" r="5"/><circle cx="170" cy="60" r="5"/><circle cx="240" cy="60" r="5"/></g></svg>
+{{- else if eq . "atom" -}}<svg viewBox="0 0 220 120" width="60%"><g stroke="#E6C98A" stroke-width="3" fill="none" stroke-linecap="round"><circle cx="110" cy="60" r="42"/><path d="M110 24 L110 96 M74 60 L146 60 M85 35 L135 85 M135 35 L85 85"/></g></svg>
+{{- else if eq . "bars" -}}<svg viewBox="0 0 360 150"><g fill="#6E2733"><rect x="10" y="60" width="34" height="90"/><rect x="60" y="42" width="34" height="108"/></g><g fill="#8C5E2C"><rect x="170" y="26" width="34" height="124"/><rect x="220" y="40" width="34" height="110"/><rect x="270" y="18" width="34" height="132"/></g></svg>
+{{- end -}}
