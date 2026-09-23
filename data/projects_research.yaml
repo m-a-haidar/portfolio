@@ -4,13 +4,13 @@ items:
     badges: ["Drosophila", "Neuroethology"]
     title: "Brain wiring & behavioral individuality"
     content: "My dissertation: how structural circuits drive individual sleep and activity personalities in D. melanogaster. Disputation: summa cum laude."
-    link: "#"
+    link: "/research/phd/"
     bg: "oxblood"
     viz: "wave"
-  - kind: "MSc · American University of Beirut · 2019–2021"
-    badges: ["Biochemistry", "GPA 3.97"]
-    title: "Molecular pathways in neurodegeneration"
-    content: "My master's thesis: exploring the molecular pathways involved in neurodegenerative disease."
-    link: "#"
+  - kind: "First-author paper · American University of Beirut · 2022"
+    badges: ["Neuroprotection", "Peer-reviewed"]
+    title: "Neuroprotection after traumatic brain injury"
+    content: "In an open-head TBI mouse model, chronic MitoQ improved neurological and cognitive outcomes and cut neuroinflammation — my first-author paper in Biomedicines."
+    link: "/research/tbi-mitoq/"
     bg: "ink"
     viz: "atom"
