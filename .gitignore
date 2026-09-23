@@ -1,0 +1,12 @@
+# Local preview builds (throwaway — never commit)
+/_sitepreview/
+/_preview/
+/preview_public/
+/Claude outputs/
+.hugo_build.lock
+/hugo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+/_rp/
