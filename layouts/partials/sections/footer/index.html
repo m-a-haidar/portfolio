@@ -1,10 +1,11 @@
 <footer>
-    <!-- Recent blog posts -->
-    {{- partial "sections/footer/recentBlogPosts.html" . -}}
-
-    <!-- Social Icons -->
-    {{- partial "sections/footer/socialNetwork.html" . -}}
-
-    <!-- Copyright -->
-    {{- partial "sections/footer/copyright.html" . -}}
+  <div class="container footer-inner">
+    <div class="footer-copy">&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }}. {{ .Site.Params.terms.copyright | default "All rights reserved" }}.</div>
+    <div class="footer-links">
+      {{ with index .Site.Params.hero.socialLinks.fontAwesomeIcons 0 }}<a href="{{ .url }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+      {{ with index .Site.Params.hero.socialLinks.fontAwesomeIcons 1 }}<a href="{{ .url }}" target="_blank" rel="noopener">ORCID</a>{{ end }}
+      {{ with index .Site.Params.hero.socialLinks.customIcons 0 }}<a href="{{ .url }}" target="_blank" rel="noopener">Google Scholar</a>{{ end }}
+      {{ with index .Site.Params.hero.socialLinks.customIcons 1 }}<a href="{{ .url }}" target="_blank" rel="noopener">ResearchGate</a>{{ end }}
+    </div>
+  </div>
 </footer>

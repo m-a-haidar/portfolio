@@ -1,0 +1,104 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Site.Params.description }}">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/projects.css" media="all">
+<script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
+{{ end }}
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "main" }}
+{{- partial "sections/hero/index.html" . -}}
+
+<section id="work">
+  <div class="container">
+    <div class="work-head">
+      <div>
+        <p class="lab" id="workLab">Research</p>
+        <h2 id="workHead">Neuroscience of individuality</h2>
+        <p class="hint" id="workHint">Scroll sideways, or use the arrows.</p>
+      </div>
+      <div class="harrows" id="workArrows"><button data-dir="-1" aria-label="Previous">&#8249;</button><button data-dir="1" aria-label="Next">&#8250;</button></div>
+    </div>
+
+    <div class="panel" id="p-research">
+      <div class="track">
+        {{ range .Site.Data.projects_research.items }}
+        <article class="card">
+          <div class="thumb center bg-{{ .bg }}">{{ partial "viz" .viz }}</div>
+          <div class="body">
+            <div class="meta">{{ .kind }}</div>
+            <div class="badges">{{ range .badges }}<span class="badge">{{ . }}</span>{{ end }}</div>
+            <h3>{{ .title }}</h3>
+            <p>{{ .content | markdownify }}</p>
+            <a class="go" href="{{ .link }}">Read the research &rarr;</a>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="panel" id="p-data" hidden>
+      {{ if .Site.Data.projects_data.items }}
+      <div class="track">
+        {{ range .Site.Data.projects_data.items }}
+        <article class="card">
+          <div class="thumb center bg-{{ .bg }}">{{ partial "viz" .viz }}</div>
+          <div class="body">
+            <div class="meta">{{ .kind }}</div>
+            <div class="badges">{{ range .badges }}<span class="badge">{{ . }}</span>{{ end }}</div>
+            <h3>{{ .title }}</h3>
+            <p>{{ .content | markdownify }}</p>
+            <a class="go" href="{{ .link }}">View project &rarr;</a>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+      {{ else }}
+      <div class="soon">
+        <span class="pill">In progress</span>
+        <p class="big">Data projects &mdash; coming soon</p>
+        <p>I&rsquo;m building a portfolio of independent data analysis projects &mdash; sleep &amp; health, business analytics, and SQL deep-dives. They&rsquo;ll land here shortly.</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<div id="cv" hidden>
+  <div class="container cv-bar"><span class="cv-title">Profile</span><button class="cv-close" id="cvClose">Hide &#10005;</button></div>
+  {{- partial "sections/about.html" . -}}
+  {{- partial "sections/experience.html" . -}}
+  {{- partial "sections/education.html" . -}}
+  {{- partial "sections/achievements.html" . -}}
+  {{- partial "sections/contact.html" . -}}
+</div>
+
+<script>
+(function(){
+  var seg=document.getElementById('workSwitch');
+  var panels={research:document.getElementById('p-research'), data:document.getElementById('p-data')};
+  var lab=document.getElementById('workLab'), head=document.getElementById('workHead'), hint=document.getElementById('workHint'), arrows=document.getElementById('workArrows');
+  var copy={research:['Research','Neuroscience of individuality',false], data:['Data analysis','Turning data into decisions',true]};
+  if(seg){ seg.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click',function(){
+      seg.dataset.i=b.dataset.i;
+      seg.querySelectorAll('button').forEach(function(x){var on=x===b; x.classList.toggle('on',on); x.setAttribute('aria-selected',String(on));});
+      var key=b.dataset.panel;
+      Object.keys(panels).forEach(function(k){ panels[k].hidden=(k!==key); });
+      lab.textContent=copy[key][0]; head.textContent=copy[key][1];
+      arrows.hidden=copy[key][2]; hint.style.visibility=copy[key][2]?'hidden':'visible';
+    });
+  }); }
+  document.querySelectorAll('#workArrows button').forEach(function(b){
+    b.addEventListener('click',function(){
+      var track=document.querySelector('#work .panel:not([hidden]) .track'); if(!track) return;
+      var c=track.querySelector('.card'); var w=c?c.getBoundingClientRect().width+22:360;
+      track.scrollBy({left:(+b.dataset.dir)*w, behavior:'smooth'});
+    });
+  });
+  var cv=document.getElementById('cv'), pb=document.getElementById('profileBtn');
+  function toggleCV(open){ cv.hidden=!open; pb.setAttribute('aria-expanded',String(open)); pb.innerHTML=open?'&#9662; Hide profile':'&#9656; Profile / CV'; if(open){ cv.scrollIntoView({behavior:'smooth',block:'start'}); } }
+  if(pb){ pb.addEventListener('click',function(){ toggleCV(cv.hidden); }); }
+  var cc=document.getElementById('cvClose'); if(cc){ cc.addEventListener('click',function(){ toggleCV(false); document.getElementById('hero').scrollIntoView({behavior:'smooth'}); }); }
+})();
+</script>
+{{ end }}

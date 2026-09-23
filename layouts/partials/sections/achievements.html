@@ -1,46 +1,16 @@
 {{ if .Site.Params.achievements.enable | default false }}
-<section id="conferences" class="py-5">
-    <div class="container">
-        <h3 class="text-center">{{ .Site.Params.achievements.title | default "Achievements" }}</h3>
-        <div class="px-0 px-md-5 px-lg-5">
-            <div class="row justify-content-center px-3 px-md-5 px-lg-5">
-                {{ range .Site.Params.achievements.items }}
-                {{ if .url }}
-                <div class="col-lg-4 col-md-6 my-3">
-                    <a class="card my-3 h-100 p-3" href="{{ .url }}" title="{{ .title }}" target="_blank">
-                        {{if .image }}
-                            <div class="card-head">
-                                <img class="card-img-top" src="{{ .image }}">
-                            </div>
-                        {{ end }}
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">{{ .title }}</h5>
-                            <div class="card-text secondary-font">
-                                {{ .content }}
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                {{ else }}
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="card my-3 h-100 p-3" title="{{ .title }}">
-                        {{if .image }}
-                            <div class="card-head">
-                                <img class="card-img-top" src="{{ .image }}">
-                            </div>
-                        {{ end }}
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">{{ .title }}</h5>
-                            <div class="card-text secondary-font">
-                                {{ .content }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
-                {{ end }}
-            </div>
-        </div>
+<section id="conferences">
+  <div class="container">
+    <div class="sec-label">{{ .Site.Params.achievements.title | default "Conferences" }}</div>
+    <h2 class="sec-head">Talks &amp; awards</h2>
+    <div class="conf-list">
+      {{ range .Site.Params.achievements.items }}
+      <div class="conf-row">
+        <h3 class="conf-title">{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+        {{ with .content }}<div class="conf-note">{{ . | markdownify }}</div>{{ end }}
+      </div>
+      {{ end }}
     </div>
+  </div>
 </section>
 {{ end }}

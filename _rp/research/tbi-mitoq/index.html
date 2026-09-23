@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=../../fav4.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="../../css/font.css" media="all">
+
+
+
+<meta property="og:url" content="https://muhammadalihaidar.de/research/tbi-mitoq/">
+  <meta property="og:site_name" content="Muhammad Ali Haidar">
+  <meta property="og:title" content="Neuroprotection after traumatic brain injury">
+  <meta property="og:description" content="In an open-head TBI mouse model, chronic mitoquinone (MitoQ) improved neurological and cognitive outcomes and reduced neuroinflammation — my first-author paper in Biomedicines.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Neuroprotection after traumatic brain injury">
+  <meta name="twitter:description" content="In an open-head TBI mouse model, chronic mitoquinone (MitoQ) improved neurological and cognitive outcomes and reduced neuroinflammation — my first-author paper in Biomedicines.">
+
+
+<link rel="stylesheet" href="../../bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="../../css/header.css" media="all">
+<link rel="stylesheet" href="../../css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="../../css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #241315;
+        --text-secondary-color-dark: #463E37;
+        --text-link-color-dark: #8C5E2C;
+        --background-color-dark: #F4EDE3;
+        --secondary-background-color-dark: #EFE7DB;
+        --primary-color-dark: #6E2733;
+        --secondary-color-dark: #EDE4D6;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+
+<link rel="stylesheet" href="../../css/index.css" media="all">
+
+
+  
+  
+
+  <title>Neuroprotection after traumatic brain injury | Muhammad Ali Haidar
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="../../">
+                
+                MAH
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="../../muhammad_ali_haidar_resume.pdf" title="">
+                            
+                            Resume
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="../../publications" title="">
+                            
+                            Publications
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="mailto:muhammad.a.haidar@gmail.com" title="">
+                            
+                            Contact
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<article id="case">
+  <header class="case-hero">
+    <div class="container">
+      <a class="case-back" href="../../">&#8592; Back to home</a>
+      <div class="case-meta">First-author paper · American University of Beirut (Kobeissy Lab) · 2019–2022</div>
+      <h1 class="case-title">Neuroprotection after traumatic brain injury</h1>
+      <div class="badges"><span class="badge light">Neuroprotection</span><span class="badge light">Peer-reviewed</span><span class="badge light">First author</span></div>
+      <p class="case-summary">In an open-head TBI mouse model, chronic mitoquinone (MitoQ) improved neurological and cognitive outcomes and reduced neuroinflammation — my first-author paper in Biomedicines.</p>
+      <div class="case-links"><a href="https://doi.org/10.3390/biomedicines10020250" target="_blank" rel="noopener">Read the paper (DOI) &#8594;</a></div>
+    </div>
+  </header>
+  <div class="container case-body">
+    <h2 id="the-problem">The problem</h2>
+<p>Traumatic brain injury (TBI) has <strong>no FDA-approved treatment</strong> — more than 30 phase-III trials in three decades have failed. Its pathology is a cascade of oxidative stress, neuroinflammation, excitotoxicity, and <strong>mitochondrial dysfunction</strong>, which makes mitochondria-targeted antioxidants a compelling avenue. This work, from my time in molecular neuroscience at the American University of Beirut, tested one directly.</p>
+<h2 id="approach">Approach</h2>
+<ul>
+<li><strong>Model:</strong> controlled cortical impact (CCI) — a moderate <em>open-head</em> TBI — in mice.</li>
+<li><strong>Intervention:</strong> mitoquinone (<strong>MitoQ</strong>), 8 mg/kg intraperitoneally, three times weekly for 30 days, starting 30 minutes post-injury.</li>
+<li><strong>Behavior &amp; cognition:</strong> Garcia neuroscore, pole climb, grip strength, adhesive removal, novel object recognition, Morris water maze, and forced swim tests.</li>
+<li><strong>Molecular:</strong> immunofluorescence for microgliosis, astrocytosis, neuronal cell count, and axonal integrity (myelin basic protein).</li>
+</ul>
+<h2 id="key-findings">Key findings</h2>
+<ul>
+<li>MitoQ <strong>enhanced neurological and cognitive function</strong> at both 7 and 30 days post-injury — better motor coordination, recognition memory, and spatial learning, and reduced depressive-like behavior.</li>
+<li>It <strong>reduced astrocyte and microglial activation</strong> while <strong>preserving neuronal counts and axonal integrity</strong> in the cortex.</li>
+<li>It <strong>upregulated antioxidant enzymes</strong> (SOD2, CAT) via the <strong>Nrf2–ARE</strong> pathway.</li>
+</ul>
+<h2 id="my-role">My role</h2>
+<p><strong>First author.</strong> I led the mechanistic analysis and the <strong>data visualization</strong> across the behavioral, cognitive, and molecular results — turning a large multi-assay dataset into a clear, defensible story.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>MitoQ is <strong>neuroprotective</strong> in a moderate open-head CCI model by decreasing oxidative stress, neuroinflammation, and axonal injury — with benefits that hold at a chronic, 30-day timepoint.</p>
+<p><span class="placeholder">[This page also stands in for my MSc research on molecular pathways in neurodegeneration — tell me if you&rsquo;d rather split them into two separate pages.]</span></p>
+
+  </div>
+</article>
+
+  </div><footer>
+  <div class="container footer-inner">
+    <div class="footer-copy">&copy; 2026 Muhammad Ali Haidar. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/haidar-muhammadali/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://orcid.org/my-orcid?orcid=0000-0002-0236-1526" target="_blank" rel="noopener">ORCID</a>
+      <a href="https://scholar.google.com/citations?user=v22CbDgAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Muhammad-Ali-Haidar?ev=hdr_xprf&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19" target="_blank" rel="noopener">ResearchGate</a>
+    </div>
+  </div>
+</footer>
+<script src="../../bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (document.body.className.includes("light")) {
+        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
