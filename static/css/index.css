@@ -837,3 +837,27 @@ footer .footer-links a:hover { color:var(--text-link-color) !important; }
 .cv-bar{display:flex; align-items:center; justify-content:space-between; padding-top:26px; padding-bottom:2px;}
 .cv-title{font-family:'Bricolage Grotesque'; font-weight:800; font-size:22px; color:var(--primary-color);}
 .cv-close{font-weight:600; color:var(--text-link-color); background:transparent; border:0; cursor:pointer; font-size:14px;}
+
+
+/* ===== Research case-study page ===== */
+#case .case-hero{ background:var(--primary-color); color:#F4EDE3; border-bottom:2px solid var(--text-color); }
+#case .case-hero .container{ max-width:920px; margin-inline:auto; padding:38px 28px 48px; }
+.case-back{ color:#E6C98A !important; font-weight:600; font-size:14px; text-decoration:none; }
+.case-back:hover{ color:#F4EDE3 !important; }
+.case-meta{ font-family:'IBM Plex Mono',monospace; font-size:13px; color:#E6C98A; margin:20px 0 10px; }
+.case-title{ font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:clamp(30px,5vw,52px); line-height:1.02; letter-spacing:-.02em; color:#F4EDE3 !important; margin:0 0 16px; }
+#case .badges{ display:flex; gap:8px; flex-wrap:wrap; }
+.badge.light{ border:1px solid #E6C98A; color:#E6C98A; font-size:12px; padding:3px 9px; }
+.case-summary{ font-size:19px; line-height:1.55; color:#ecd8d8; max-width:62ch; margin:16px 0 22px; }
+.case-links{ display:flex; gap:22px; flex-wrap:wrap; }
+.case-links a{ color:#F4EDE3 !important; font-weight:600; border-bottom:2px solid #E6C98A; padding-bottom:2px; text-decoration:none; }
+.case-body{ max-width:760px; margin-inline:auto; padding:42px 28px 72px; }
+.case-body h2{ font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:26px; color:var(--primary-color); margin:34px 0 12px; }
+.case-body h3{ font-family:'Bricolage Grotesque',sans-serif; font-weight:700; font-size:19px; color:var(--text-color); margin:24px 0 8px; }
+.case-body p, .case-body li{ font-size:16.5px; line-height:1.72; color:var(--text-color); }
+.case-body ul{ padding-left:1.2em; margin:10px 0 16px; }
+.case-body li{ margin-bottom:6px; }
+.case-body a{ color:var(--text-link-color); }
+.case-body strong{ color:var(--text-color); font-weight:600; }
+.case-body em{ color:var(--text-secondary-color); }
+.placeholder{ display:inline-block; background:#f3e3c9; border-left:3px solid var(--text-link-color); padding:3px 10px; font-style:italic; color:#6b4e1f; }
