@@ -67,7 +67,7 @@ params:
   title: "Muhammad Ali Haidar — Neuroscientist & Data Analyst"
   description: "Neuroscientist and data analyst in Berlin — turning complex biological data into clear, usable answers."
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav4.png"
+  favicon: "/favicon.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -135,8 +135,8 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandLogo: "/favicon.svg" # Logo for the brand | default is the favicon variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
     brandName: "MAH" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
