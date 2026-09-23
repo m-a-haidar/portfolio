@@ -1,0 +1,21 @@
+{{ define "head" }}
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
+{{ end }}
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<article id="case">
+  <header class="case-hero">
+    <div class="container">
+      <a class="case-back" href="/">&#8592; Back to home</a>
+      {{ with .Params.meta }}<div class="case-meta">{{ . }}</div>{{ end }}
+      <h1 class="case-title">{{ .Title }}</h1>
+      {{ with .Params.badges }}<div class="badges">{{ range . }}<span class="badge light">{{ . }}</span>{{ end }}</div>{{ end }}
+      {{ with .Params.summary }}<p class="case-summary">{{ . }}</p>{{ end }}
+      {{ with .Params.links }}<div class="case-links">{{ range . }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }} &#8594;</a>{{ end }}</div>{{ end }}
+    </div>
+  </header>
+  <div class="container case-body">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
