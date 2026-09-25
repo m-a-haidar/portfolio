@@ -64,8 +64,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Muhammad Ali Haidar — Neuroscientist & Data Analyst"
-  description: "Neuroscientist and data analyst in Berlin — turning complex biological data into clear, usable answers."
+  title: "Muhammad Ali Haidar, Neuroscientist & Data Analyst"
+  description: "Neuroscientist and data analyst in Berlin, turning complex biological data into clear, usable answers."
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.png"
 
@@ -157,8 +157,8 @@ params:
     enable: true
     #intro: "Hi, my name is"
     title: "Muhammad Ali Haidar, PhD"
-    subtitle: "Neuroscientist & Data Analyst — Berlin"
-    content: "I study how individual brains produce individual behavior — and turn messy, high-dimensional biological data into answers people can act on."
+    subtitle: "Neuroscientist & Data Analyst, Berlin"
+    content: "I study how individual brains produce individual behavior, and turn messy, high-dimensional biological data into answers people can act on."
     image: /images/me2_oxblood.png
     bottomImage:
       enable: false
@@ -243,7 +243,7 @@ params:
         info:
           enable: false
         content: |- 
-          I participated in the end-to-end development of a digital health platform designed to bridge medical information gaps for marginalized communities in Lebanon. By merging qualitative user research with technical project oversight, I translated complex community needs into a culturally sensitive, AI-driven resource—delivering a high-impact product within a strict six-month development and funding cycle.
+          I participated in the end-to-end development of a digital health platform designed to bridge medical information gaps for marginalized communities in Lebanon. By merging qualitative user research with technical project oversight, I translated complex community needs into a culturally sensitive, AI-driven resource, delivering a high-impact product within a strict six-month development and funding cycle.
 
       - job: "Research Assistant"
         company: "American University of Beirut"
@@ -267,7 +267,7 @@ params:
         info:
           enable: false
         content: |-
-          At the height of the pandemic, I served on the front lines of Lebanon national diagnostic effort, processing high-volume samples for all international arrivals. I managed the full molecular workflow—from manual and automated RNA extraction to RT-qPCR—within a high-throughput environment. My focus was on maintaining 100% diagnostic accuracy and streamlining intake workflows to ensure rapid turnaround times under intense national pressure.
+          At the height of the pandemic, I served on the front lines of Lebanon national diagnostic effort, processing high-volume samples for all international arrivals. I managed the full molecular workflow, from manual and automated RNA extraction to RT-qPCR, within a high-throughput environment. My focus was on maintaining 100% diagnostic accuracy and streamlining intake workflows to ensure rapid turnaround times under intense national pressure.
  # Education
   education:
     enable: true

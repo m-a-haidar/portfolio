@@ -10,7 +10,7 @@ items:
   - kind: "First-author paper · American University of Beirut · 2022"
     badges: ["Neuroprotection", "Peer-reviewed"]
     title: "Neuroprotection after traumatic brain injury"
-    content: "In an open-head TBI mouse model, chronic MitoQ improved neurological and cognitive outcomes and cut neuroinflammation — my first-author paper in Biomedicines."
+    content: "In an open-head TBI mouse model, chronic MitoQ improved neurological and cognitive outcomes and cut neuroinflammation, my first-author paper in Biomedicines."
     link: "/research/tbi-mitoq/"
     bg: "ink"
     viz: "atom"
